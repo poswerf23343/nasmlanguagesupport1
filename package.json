@@ -1,0 +1,25 @@
+{
+    "name": "nasmlanguagesupport1",
+    "displayName": "NasmLanguageSupport1",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.65.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "asm",
+            "aliases": ["NASM", "asm"],
+            "extensions": [".asm"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "asm",
+            "scopeName": "source.asm",
+            "path": "./syntaxes/asm.tmLanguage.json"
+        }]
+    }
+}
