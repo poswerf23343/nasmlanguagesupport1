@@ -62,4 +62,21 @@ Added features X, Y, and Z.
 * [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
 * [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
+### Reference for development
+1. [Extension Manifest](https://code.visualstudio.com/api/references/extension-manifest)
+
+1. [Language Extension Overview](https://code.visualstudio.com/api/language-extensions/overview)
+2. [Language Server Extension](https://code.visualstudio.com/api/language-extensions/language-server-extension-guide)
+
+1. [Syntax Highlight Guide](https://code.visualstudio.com/api/language-extensions/syntax-highlight-guide)
+2. [TextMate Grammer](https://macromates.com/manual/en/language_grammars)
+3. [Contribution Points](https://code.visualstudio.com/api/references/contribution-points)
+4. [Language Grammers (TextMate)](https://macromates.com/manual/en/language_grammars)
+
 **Enjoy!**
+
+## memo
+* package.jsonで編集
+
+### 制作メモ
+1. package.jsonの"grammers"でTextMate文法が使える。
