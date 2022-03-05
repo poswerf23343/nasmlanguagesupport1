@@ -12,12 +12,12 @@
     "contributes": {
         "languages": [{
             "id": "asm",
-            "aliases": ["NASM"],
+            "aliases": ["NASM","asm"],
             "extensions": [".asm"],
             "configuration": "./language-configuration.json"
         }],
         "grammars": [{
-            "language": "NASM",
+            "language": "asm",
             "scopeName": "source.asm",
             "path": "./syntaxes/nasm.tmLanguage.json"
         }]

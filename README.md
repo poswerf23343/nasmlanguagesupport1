@@ -80,3 +80,12 @@ Added features X, Y, and Z.
 
 ### 制作メモ
 1. package.jsonの"grammers"でTextMate文法が使える。
+2. grammerの設定が一番優先される。
+3. 基本的な考え方
+    1. nasm.tmLanguage.jsonファイルではpattern,repositoryのセットで管理。grammerはこの2つに分割される。
+    2. repositoryの{"include","#id"}とかを参照する。
+    3. {"include","#---"}の---をラベル名にすることで、---の情報をgrammerに追加する。
+    4. "---":{}  {}の中で正規表現を使っていく。
+    - ※ Syntax Highlight Guideの情報だけでいいかも？
+4. 正規表現とか
+    1. Language Grammersの12.2 Language Rulesを
